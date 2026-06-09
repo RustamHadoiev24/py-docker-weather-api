@@ -2,7 +2,7 @@ import os
 import requests
 
 
-def main():
+def main() -> None:
     api_key = os.getenv("API_KEY")
     if not api_key:
         print("API_KEY is not set!")
@@ -22,4 +22,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
